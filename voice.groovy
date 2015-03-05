@@ -1,6 +1,8 @@
 voice {
     name = 'dfki-ot-hsmm'
-    language = 'tr'
+    locale {
+        language = 'tr'
+    }
     gender = 'male'
     type = 'hsmm'
     description = 'A male Turkish hidden semi-Markov model voice'
